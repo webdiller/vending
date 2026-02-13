@@ -14,5 +14,5 @@ export default defineConfig({
       '@': path.resolve('./src'),
     },
   },
-  base: '/energofoodgroup',
+  base: '/vending',
 })
