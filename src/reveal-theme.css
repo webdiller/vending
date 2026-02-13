@@ -1,0 +1,139 @@
+/**
+ * Energo Food theme: white + green
+ * Overrides reveal.js white theme
+ */
+.reveal .slides section,
+.reveal .slides section > section {
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #166534;
+  text-transform: none;
+}
+
+.reveal a {
+  color: #16a34a;
+}
+
+.reveal .accent-green {
+  color: #16a34a;
+}
+
+.reveal .bg-green-light {
+  background: #f0fdf4;
+}
+
+.reveal .schema-box {
+  border: 2px solid #16a34a;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  background: #f0fdf4;
+}
+
+.reveal .schema-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+}
+
+.reveal .schema-arrow {
+  color: #16a34a;
+  font-size: 4em;
+}
+
+/* Diagram infographic - horizontal layout */
+.reveal .diagram-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.5rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal .diagram-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(180deg, #f0fdf4 0%, #dcfce7 100%);
+  border: 2px solid #16a34a;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.15);
+  min-width: 120px;
+}
+
+.reveal .diagram-flow .diagram-card {
+  flex: 0 0 auto;
+}
+
+.reveal .diagram-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+  margin-bottom: 0.4rem;
+}
+
+.reveal .diagram-label {
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #166534;
+}
+
+.reveal .diagram-desc {
+  font-size: 0.7em;
+  color: #4b5563;
+  margin-top: 0.2rem;
+}
+
+.reveal .diagram-arrow {
+  color: #16a34a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .diagram-arrow svg {
+  width: 32px;
+  height: 20px;
+}
+
+/* Contact icons */
+.reveal .contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  transition: transform 0.2s;
+}
+
+.reveal .contact-icons a:hover {
+  transform: scale(1.1);
+}
+
+.reveal .contact-icons img {
+  width: 32px;
+  height: 32px;
+}

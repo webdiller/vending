@@ -1,12 +1,9 @@
-import Hero from "./components/widgets/Hero"
+import Presentation from "./components/Presentation"
 
 function App() {
   return (
-    <div className="bg-background">
-      <Hero
-        title="Welcome to the app"
-        description="This is a description of the app"
-      />
+    <div className="h-screen w-screen overflow-hidden">
+      <Presentation />
     </div>
   )
 }
