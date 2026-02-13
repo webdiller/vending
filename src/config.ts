@@ -1,12 +1,18 @@
 /**
  * Конфиг сайта Energo Food.
- * Ссылки на мессенджеры для инвесторов.
- * Укажите полные URL. Пустая строка = ссылка не отображается.
  */
 export const siteConfig = {
-  messengers: {
-    telegram: "https://t.me/+000",
-    whatsapp: "https://wa.me/+000",
-    viber: "viber://chat?number=+000",
+  contacts: {
+    whatsapp: "+66 654869537",
+    whatsappLink: "https://wa.me/66654869537",
+    instagram: "@energo_phuket",
+    instagramLink: "https://www.instagram.com/energo_phuket/",
+    email: "energofoodgroup@gmail.com",
+    emailLink: "mailto:energofoodgroup@gmail.com",
+  },
+  company: {
+    name: "ENERGO FOOD GROP CO.,LTD.",
+    taxId: "0835568021786",
+    address: "221/35 Moo 3, Si Sunthon Subdistrict, Thalang District, Phuket 83110",
   },
 } as const;
