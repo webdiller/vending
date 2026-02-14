@@ -4,7 +4,7 @@ import whatsappIcon from "../assets/icons/whatsapp-3.svg";
 
 const SECTIONS = [
   { id: "hero", label: "О проекте" },
-  { id: "system", label: "Система работы" },
+  { id: "system", label: "Как мы работаем? " },
   { id: "economics", label: "Экономика" },
   { id: "costs", label: "Затраты" },
   { id: "contacts", label: "Контакты" },
@@ -49,8 +49,7 @@ export default function Presentation() {
             <img width={1280} height={392} src="./logo.jpeg" alt="Energo food group"/>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-center max-w-2xl mt-2">
-            Проект по установке вендинговых аппаратов. Торговое предложение для
-            инвесторов — привлечение инвестиций.
+            Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.
           </p>
           <div className="flex flex-col xl:flex-row items-center justify-center gap-3 md:gap-4 max-w-4xl mx-auto mt-6 md:mt-12">
             <div className="flex flex-col items-center text-center p-4 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full md:w-auto md:min-w-[160px] shrink-0">
@@ -77,18 +76,22 @@ export default function Presentation() {
               <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 md:mb-3">
                 <Package size={32} strokeWidth={1.8} className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
               </div>
-              <div className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">Вендинговый аппарат</div>
+              <div className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">Вендинговый аппарат / торговая точка</div>
               <div className="text-gray-600 text-xs sm:text-sm md:text-base mt-1">Продаёт продукцию</div>
             </div>
           </div>
         </section>
 
-        {/* 2 Система работы */}
+        {/* 2 Как мы работаем?  */}
         <section id="system" className="px-4 py-16 md:py-24 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Система работы
+            Как мы работаем? 
           </h2>
-          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-10">Цех производит, заработок на поставках</p>
+          <div className="text-base sm:text-lg md:text-xl mb-6 md:mb-10">
+            <p>Цех производит продукты питания. </p>
+            <p>Торговый одел занимается поставкой продуктов питания из цеха к вендинговым аппаратам. </p>
+            <p>Так же контролирует безопасность, качество продуктов, финансовую часть и регулярное обслуживание.</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-14 text-left max-w-4xl mx-auto">
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 text-gray-900">Сырники — поставка 150 бат</h3>
