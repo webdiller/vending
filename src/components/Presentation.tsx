@@ -48,9 +48,11 @@ export default function Presentation() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
             <img width={1280} height={392} src="./logo.jpeg" alt="Energo food group"/>
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-center max-w-2xl mt-2">
-            Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.
-          </p>
+          <div className="text-base text-balance space-y-4 sm:text-lg md:text-xl text-center max-w-6xl mt-2">
+            <p>Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.</p>
+            <p>Компания Energo Food Group занимается производством продуктов питания и торговлей. Мы поставляем продукты питания в кафе, рестораны, отели, сауны, магазины и другие заведения в Королевстве Таиланд.</p>
+            <p>Нашей компанией была разработана производственно-торговая система, которая обогащает своих вкладчиков.</p>
+          </div>
           <div className="flex flex-col 540w:flex-row items-center justify-center gap-3 540w:gap-2 md:gap-4 max-w-4xl mx-auto mt-6 md:mt-12 540w:flex-nowrap">
             <div className="flex flex-col items-center text-center p-4 540w:p-2 540w:min-w-0 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full 540w:flex-1 540w:max-w-[140px] md:flex-none md:max-w-none md:w-auto md:min-w-[160px] shrink-0">
               <div className="flex items-center justify-center w-12 h-12 540w:w-9 540w:h-9 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 540w:mb-1 md:mb-3">
