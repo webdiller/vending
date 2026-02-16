@@ -1,4 +1,4 @@
-import { Factory, Truck, Package, PackageCheck, ShoppingCart, Instagram, Mail } from "lucide-react";
+import { Factory, Truck, Package, Instagram, Mail } from "lucide-react";
 import { siteConfig } from "../config";
 import whatsappIcon from "../assets/icons/whatsapp-3.svg";
 
@@ -12,7 +12,7 @@ const SECTIONS = [
 
 export default function Presentation() {
   const arrowSvg = (
-    <svg viewBox="0 0 60 24" fill="none" className="w-8 h-6 sm:w-10 sm:h-7 md:w-12 md:h-8 lg:w-14 lg:h-9 shrink-0">
+    <svg viewBox="0 0 60 24" fill="none" className="w-4 h-3 540w:w-5 540w:h-4 sm:w-10 sm:h-7 md:w-12 md:h-8 lg:w-14 lg:h-9 shrink-0">
       <path
         d="M2 12h52M48 6l6 6-6 6"
         stroke="currentColor"
@@ -51,33 +51,33 @@ export default function Presentation() {
           <p className="text-base sm:text-lg md:text-xl text-center max-w-2xl mt-2">
             Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.
           </p>
-          <div className="flex flex-col xl:flex-row items-center justify-center gap-3 md:gap-4 max-w-4xl mx-auto mt-6 md:mt-12">
-            <div className="flex flex-col items-center text-center p-4 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full md:w-auto md:min-w-[160px] shrink-0">
-              <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 md:mb-3">
-                <Factory size={32} strokeWidth={1.8} className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
+          <div className="flex flex-col 540w:flex-row items-center justify-center gap-3 540w:gap-2 md:gap-4 max-w-4xl mx-auto mt-6 md:mt-12 540w:flex-nowrap">
+            <div className="flex flex-col items-center text-center p-4 540w:p-2 540w:min-w-0 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full 540w:flex-1 540w:max-w-[140px] md:flex-none md:max-w-none md:w-auto md:min-w-[160px] shrink-0">
+              <div className="flex items-center justify-center w-12 h-12 540w:w-9 540w:h-9 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 540w:mb-1 md:mb-3">
+                <Factory size={32} strokeWidth={1.8} className="w-7 h-7 540w:w-5 540w:h-5 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
               </div>
-              <div className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">Цех</div>
-              <div className="text-gray-600 text-xs sm:text-sm md:text-base mt-1">Производит продукцию</div>
+              <div className="font-bold text-gray-900 text-sm 540w:text-xs sm:text-base md:text-lg">Цех</div>
+              <div className="text-gray-600 text-xs 540w:text-[10px] sm:text-sm md:text-base mt-1 540w:mt-0.5">Производит продукцию</div>
             </div>
-            <div className="flex items-center justify-center text-gray-900 rotate-90 xl:rotate-0 shrink-0">
+            <div className="flex items-center justify-center text-gray-900 rotate-90 540w:rotate-0 shrink-0">
               {arrowSvg}
             </div>
-            <div className="flex flex-col items-center text-center p-4 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full md:w-auto md:min-w-[160px] shrink-0">
-              <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 md:mb-3">
-                <Truck size={32} strokeWidth={1.8} className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
+            <div className="flex flex-col items-center text-center p-4 540w:p-2 540w:min-w-0 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full 540w:flex-1 540w:max-w-[140px] md:flex-none md:max-w-none md:w-auto md:min-w-[160px] shrink-0">
+              <div className="flex items-center justify-center w-12 h-12 540w:w-9 540w:h-9 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 540w:mb-1 md:mb-3">
+                <Truck size={32} strokeWidth={1.8} className="w-7 h-7 540w:w-5 540w:h-5 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
               </div>
-              <div className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">Торговый отдел</div>
-              <div className="text-gray-600 text-xs sm:text-sm md:text-base mt-1">Доставка, контроль, договоры</div>
+              <div className="font-bold text-gray-900 text-sm 540w:text-xs sm:text-base md:text-lg">Торговый отдел</div>
+              <div className="text-gray-600 text-xs 540w:text-[10px] sm:text-sm md:text-base mt-1 540w:mt-0.5">Доставка, контроль, договоры</div>
             </div>
-            <div className="flex items-center justify-center text-gray-900 rotate-90 xl:rotate-0 shrink-0">
+            <div className="flex items-center justify-center text-gray-900 rotate-90 540w:rotate-0 shrink-0">
               {arrowSvg}
             </div>
-            <div className="flex flex-col items-center text-center p-4 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full md:w-auto md:min-w-[160px] shrink-0">
-              <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 md:mb-3">
-                <Package size={32} strokeWidth={1.8} className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
+            <div className="flex flex-col items-center text-center p-4 540w:p-2 540w:min-w-0 md:p-6 bg-linear-to-b from-gray-100 to-gray-200 border-2 border-gray-900 rounded-xl shadow-md w-full 540w:flex-1 540w:max-w-[140px] md:flex-none md:max-w-none md:w-auto md:min-w-[160px] shrink-0">
+              <div className="flex items-center justify-center w-12 h-12 540w:w-9 540w:h-9 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 text-white mb-2 540w:mb-1 md:mb-3">
+                <Package size={32} strokeWidth={1.8} className="w-7 h-7 540w:w-5 540w:h-5 sm:w-8 sm:h-8 md:w-9 md:h-9 shrink-0" />
               </div>
-              <div className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">Вендинговый аппарат / торговая точка</div>
-              <div className="text-gray-600 text-xs sm:text-sm md:text-base mt-1">Продаёт продукцию</div>
+              <div className="font-bold text-gray-900 text-sm 540w:text-xs sm:text-base md:text-lg leading-tight">Вендинговый аппарат / торговая точка</div>
+              <div className="text-gray-600 text-xs 540w:text-[10px] sm:text-sm md:text-base mt-1 540w:mt-0.5">Продаёт продукцию</div>
             </div>
           </div>
         </section>
