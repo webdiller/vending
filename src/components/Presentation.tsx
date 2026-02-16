@@ -46,7 +46,7 @@ export default function Presentation() {
           className="min-h-[80vh] flex flex-col items-center justify-center text-center px-4 py-16 md:py-24"
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            <img width={1280} height={392} src="./logo.jpeg" alt="Energo food group"/>
+            <img width={1280} height={392} src="./vending/logo.jpeg" alt="Energo food group"/>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-center max-w-2xl mt-2">
             Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.
@@ -92,61 +92,6 @@ export default function Presentation() {
             <p>Торговый одел занимается поставкой продуктов питания из цеха к вендинговым аппаратам. </p>
             <p>Так же контролирует безопасность, качество продуктов, финансовую часть и регулярное обслуживание.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-14 text-left max-w-4xl mx-auto">
-            <div>
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 text-gray-900">Сырники — поставка 150 бат</h3>
-              <ul className="text-sm sm:text-base md:text-lg space-y-2 text-gray-700">
-                <li>Цех отдаёт часть из прибыли торговому отделу</li>
-                <li>Торговый отдел зарабатывает с поставок и обслуживания</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 text-gray-900">Аппарат</h3>
-              <ul className="text-sm sm:text-base md:text-lg space-y-2 text-gray-700">
-                <li>Зарабатывает с % (накрутка)</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* 3 Экономика */}
-        <section id="economics" className="px-4 py-16 md:py-24 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Экономика
-          </h2>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mt-8 md:mt-14">
-            <div className="border-2 border-gray-900 rounded-xl p-6 md:p-8 bg-gray-100 text-center max-w-sm w-full">
-              <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-gray-900 text-white mx-auto mb-3">
-                <PackageCheck size={36} strokeWidth={1.8} className="w-9 h-9 sm:w-10 sm:h-10 shrink-0" />
-              </div>
-              <p className="text-sm sm:text-base md:text-lg text-gray-600">Поставка</p>
-              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">150 бат</p>
-              <p className="text-sm sm:text-base md:text-lg mt-1">Сырники</p>
-            </div>
-            <span className="text-gray-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl rotate-90 xl:rotate-0 shrink-0">
-              →
-            </span>
-            <div className="border-2 border-gray-900 rounded-xl p-6 md:p-8 bg-gray-100 text-center max-w-sm w-full">
-              <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-gray-900 text-white mx-auto mb-3">
-                <ShoppingCart size={36} strokeWidth={1.8} className="w-9 h-9 sm:w-10 sm:h-10 shrink-0" />
-              </div>
-              <p className="text-sm sm:text-base md:text-lg text-gray-600">Реализация</p>
-              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">200 бат</p>
-            </div>
-          </div>
-        </section>
-
-        {/* 4 Затраты */}
-        <section id="costs" className="px-4 py-16 md:py-24 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Затраты / Что нужно для реализации?
-          </h2>
-          <ul className="text-left mt-8 md:mt-14 space-y-5 md:space-y-7 text-base sm:text-lg md:text-xl max-w-2xl mx-auto list-disc pl-6">
-            <li>Аппарат + микроволновка (подключить)</li>
-            <li>Переделать дизайн аппарата под Energo Food</li>
-            <li>Аренда (до 5000 бат / мес)</li>
-            <li>Создать партнёрскую программу. Наша компания занимается управлением</li>
-          </ul>
         </section>
 
         {/* 5 Контакты */}
