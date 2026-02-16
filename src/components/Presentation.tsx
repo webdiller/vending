@@ -46,7 +46,7 @@ export default function Presentation() {
           className="min-h-[80vh] flex flex-col items-center justify-center text-center px-4 py-16 md:py-24"
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            <img width={1280} height={392} src="./vending/logo.jpeg" alt="Energo food group"/>
+            <img width={1280} height={392} src="./logo.jpeg" alt="Energo food group"/>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-center max-w-2xl mt-2">
             Выгодное коммерческое предложение для партнеров. Проект по установке вендинговых аппаратов.
