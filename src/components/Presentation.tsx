@@ -84,18 +84,6 @@ export default function Presentation() {
           </div>
         </section>
 
-        {/* 2 Как мы работаем?  */}
-        <section id="system" className="px-4 py-16 md:py-24 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Как мы работаем? 
-          </h2>
-          <div className="text-base sm:text-lg md:text-xl mb-6 md:mb-10">
-            <p>Цех производит продукты питания. </p>
-            <p>Торговый одел занимается поставкой продуктов питания из цеха к вендинговым аппаратам. </p>
-            <p>Так же контролирует безопасность, качество продуктов, финансовую часть и регулярное обслуживание.</p>
-          </div>
-        </section>
-
         {/* 5 Контакты */}
         <section id="contacts" className="px-4 py-16 md:py-24 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
